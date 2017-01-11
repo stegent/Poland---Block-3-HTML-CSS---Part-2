@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: ;
+	background: rgb(21,101,192);
+	background: -moz-linear-gradient(top, rgb(21,101,192), rgb(227,242,253));
+	background: -webkit-linear-gradient(top, rgb(21,101,192), rgb(227,242,253));
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	min-height: 700px;
+}
+#container {
+	width:700px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+#logo {
+	background-image: url(http://s3.freefoto.com/images/41/23/41_23_7_web.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 700px;
+	margin: 10px 0 0 0;
+}
+
+#logo h1 {
+	text-align: center;
+    font-family: 'Vampiro One', cursive;
+	letter-spacing: .3em;
+	color:#EEE;
+	text-shadow: 1px 1px 5px #000;
+}
+
+nav {
+	width:700px;
+	background: rgb(69,133,206);
+	background-color: -moz-linear-gradient(top, #4586ce, #4d8bd0);
+	background-color: -webkit-linear-gradient(top, #4586ce, #4d8bd0);
+	height:36px;
+}
+
+nav ul {
+	margin:0 auto;
+	width:400px;
+}
+
+nav ul li {
+	display:inline-block;
+	background-color: #FFF;
+	text-align: center;
+	margin:7px;	
+	background: rgba(33,149,243,1);
+	background: -moz-linear-gradient(top, rgb(33,149,243), rgb(227,242,253));
+	background: -webkit-linear-gradient(top, rgb(33,149,243), rgb(227,242,253));
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:#FFF;
+	border-radius: 5px;
+	display: inline-block;
+	width: 80px;
+	box-shadow: 1px 1px 5px #000;
+	border: 1px solid #DDD;
+}
+
+nav ul li a:hover{
+	background:-webkit-linear-gradient(top, rgb(227, 242, 253), rgb(33, 149, 243));
+	background:-moz-linear-gradient(top, rgb(227, 242, 253), rgb(33, 149, 243));
+}
+
+nav ul li a.current, nav ul li a.current:hover  {
+	background:-webkit-linear-gradient(top, rgb(227, 242, 253), rgb(33, 149, 243));
+	background:-moz-linear-gradient(top, rgb(227, 242, 253), rgb(33, 149, 243));
+	color:#1A237E;
+	cursor:default;
+}
+
+#content {
+	width: 700px;	
+	background:rgb(21,101,192);
+	padding: 60px 0;
+}
+
+article {
+	width:430px;
+	margin: 0 auto;
+	background: rgb(227,242,253);
+	padding:10px;
+	border:#DDD 1px solid;
+	border-radius: 15px;
+}
+
+article img{
+	border-radius: 15px;
+	border:1px solid black;
+	margin:0 10px 0 0;
+}
+
+article ul li{
+	list-style-type:none;
+	padding:10px 0;
+
+}
+
+.icon{
+	border-radius: 0px;
+	border:none;
+	vertical-align: middle;
+}
+
+#img_index {
+	float:left;
+}
+
+
+#gmail{
+	border:none;
+	display: block;
+	margin:0 auto;
+}
+
+article h2 {
+	padding:0 0 0 0;
+	color:#1A237E;
+}
+
+.center_h2{
+	text-align: center;
+}
+
+article p{
+	text-align: justify;
+	line-height: 20px;
+	padding: 0 10px 10px 10px;
+}
+footer {
+	text-align: center;
+	background: #e3f2fd;
+	padding:20px 0 20px 0;
+}
